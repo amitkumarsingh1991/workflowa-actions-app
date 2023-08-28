@@ -11,8 +11,8 @@ jobs:
         with:
           node-version: 18
       - name: install dependencies
-        run: npm ci
+        uses: actions/yarn@v3
       - name: Run tests
-        run: npm test
+        run:  yarn  test
       
 
