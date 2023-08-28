@@ -16,5 +16,7 @@ jobs:
           cmd: install # will run `yarn install` command
       - name: Run tests
         run:  yarn test
+      - name: Finish tests
+        run: echo "Test Finished !!!"
       
 
