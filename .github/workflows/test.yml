@@ -10,11 +10,11 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-      - name: Run install
+      - name: Run install yarn 
         uses: borales/actions-yarn@v4
         with:
           cmd: install # will run `yarn install` command
       - name: Run tests
-        run:  yarn  test
+        run:  yarn test
       
 

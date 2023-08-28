@@ -1,3 +1,7 @@
+/**
+ * @jest-environment jsdom
+ */
+
 import { fireEvent, render, screen, waitFor, act} from "@testing-library/react";
 
 describe("Todo App", () => {
