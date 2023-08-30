@@ -13,8 +13,8 @@ jobs:
       - name: Run install yarn 
         uses: borales/actions-yarn@v4
         with:
-          cmd: install # will run `yarn install` command
-      - name: test starting 
+          cmd: yarn install # will run `yarn install` command
+      - name: Test starting 
         run:  yarn test
       - name: Finish tests
         run: echo "Test Finished !!!"
